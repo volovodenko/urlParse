@@ -1,0 +1,4 @@
+/vendor
+/.idea
+access.log
+error.log

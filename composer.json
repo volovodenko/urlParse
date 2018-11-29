@@ -1,0 +1,24 @@
+{
+  "name": "vvi/task",
+  "authors": [
+    {
+      "name": "Vitaly Volovodenko",
+      "email": "volovodenko@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.2",
+    "ext-PDO": "*",
+    "sunra/php-simple-html-dom-parser": "^1.5",
+    "phpoffice/phpspreadsheet": "^1.5",
+    "symfony/var-dumper": "^4.1"
+  },
+  "require-dev": {
+  }
+}
